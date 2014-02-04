@@ -159,3 +159,6 @@ TW_NO_USB_STORAGE := true
 
 # Releasetools
 TARGET_RELEASETOOLS_EXTENSIONS := device/sony/rhine-common
+
+# Vendor Init
+TARGET_INIT_VENDOR_LIB := libinit_rhine
