@@ -34,7 +34,6 @@ BOARD_VENDOR_PLATFORM := rhine
 BOARD_LIB_DUMPSTATE := libdumpstate.sony
 
 # Architecture
-TARGET_ARCH_VARIANT_CPU := cortex-a9
 TARGET_CPU_VARIANT := krait
 
 # Flags
