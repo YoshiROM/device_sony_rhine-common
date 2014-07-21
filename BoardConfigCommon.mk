@@ -24,7 +24,7 @@ TARGET_SPECIFIC_HEADER_PATH := device/sony/rhine-common/include
 
 # Kernel properties
 TARGET_KERNEL_SOURCE := kernel/sony/msm8974
-TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.8-14.04/bin/arm-linux-gnueabihf-
+TARGET_KERNEL_CUSTOM_TOOLCHAIN := linaro-4.9-14.06/bin/arm-linux-gnueabihf-
 
 # Platform
 TARGET_BOOTLOADER_BOARD_NAME := MSM8974
