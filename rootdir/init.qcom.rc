@@ -266,6 +266,9 @@ on boot
 
     chown system /sys/devices/virtual/timed_output/vibrator/vtg_level
 
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal
+    chown system system /sys/devices/platform/kcal_ctrl.0/kcal_ctrl
+
     # charger
     chown root system /sys/module/qpnp_charger/parameters/charger_monitor
     chown root system /sys/class/power_supply/battery/input_current_max

@@ -1,3 +1,5 @@
 # Hardware tunables
 /sys/devices/mdss_dsi_panel/cabc                       -- u:object_r:sysfs_display:s0
 /sys/devices/virtual/timed_output/vibrator/vtg_level   -- u:object_r:sysfs_vibrator:s0
+/sys/devices/platform/kcal_ctrl.0/kcal                 -- u:object_r:sysfs_display:s0
+/sys/devices/platform/kcal_ctrl.0/kcal_ctrl            -- u:object_r:sysfs_display:s0
