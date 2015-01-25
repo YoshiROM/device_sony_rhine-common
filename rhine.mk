@@ -59,7 +59,6 @@ PRODUCT_COPY_FILES += \
 
 # Sbin
 PRODUCT_COPY_FILES += \
-    $(COMMON_PATH)/rootdir/charger:root/healthd \
     $(COMMON_PATH)/rootdir/sbin/tad_static:system/bin/tad_static
 
 # ANT+
@@ -125,6 +124,10 @@ endif
 
 PRODUCT_COPY_FILES += \
     $(NFCEE_ACCESS_PATH):system/etc/nfcee_access.xml
+
+# Off mode charger
+PRODUCT_PACKAGES += \
+    charger_res_images
 
 # USB
 PRODUCT_PACKAGES += \
